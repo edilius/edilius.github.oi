@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <style>
+        * {
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .about, .projects, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+        .project-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #007bff;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Halo, Saya Nama Kamu</h1>
+    <p>Web Developer | UI/UX Designer</p>
+    <nav>
+        <a href="#about">Tentang</a>
+        <a href="#projects">Projek</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="about" class="about">
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya adalah pengembang web yang antusias dalam menciptakan website yang fungsional dan menarik. Saya memiliki pengalaman dalam HTML, CSS, JavaScript, dan framework modern.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projek Saya</h2>
+
+        <div class="project-card">
+            <h3>Website Toko Online</h3>
+            <p>Membangun toko online modern menggunakan HTML, CSS, JavaScript, dan PHP. Mendukung sistem pembayaran dan user-friendly.</p>
+            <a href="#" target="_blank">Lihat Projek</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Aplikasi Portfolio</h3>
+            <p>Website ini dirancang untuk menampilkan projek-projek pribadi secara profesional. Menggunakan desain responsif agar cocok di semua perangkat.</p>
+            <a href="#" target="_blank">Lihat Projek</a>
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Kontak Saya</h2>
+        <p>Email: kamu@example.com</p>
+        <p>WhatsApp: +62 812-XXXX-XXXX</p>
+    </section>
+</div>
+
+<footer>
+    &copy; 2025 Nama Kamu - Semua Hak Dilindungi.
+</footer>
+
+</body>
+</html>
